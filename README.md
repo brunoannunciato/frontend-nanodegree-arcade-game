@@ -1,6 +1,9 @@
 frontend-nanodegree-arcade-game
 ===============================
-___
+
+# Iniciar o jogo
+
+- Para iniciar, basta abrir o arquivo índex.html' na raiz do projeto.
 
 # Objetivo
 
