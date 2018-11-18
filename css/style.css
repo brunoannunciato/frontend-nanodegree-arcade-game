@@ -1,0 +1,16 @@
+body {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    overflow: hidden;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 500px;
+}
+
+canvas {
+    margin-top: -50px;
+}
