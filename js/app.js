@@ -45,6 +45,10 @@ class Game {
         document.querySelector('.level').textContent = textLevel;
         document.querySelector('.max-level').textContent = textMaxLevel;
 
+        if (localStorage.maxLevel == undefined) {
+            localStorage.setItem('maxLevel', 1);
+        }
+
         if (this.level > localStorage.maxLevel) {
             localStorage.setItem('maxLevel', this.level)
         }
