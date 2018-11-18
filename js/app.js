@@ -103,7 +103,6 @@ class Player extends Positions {
     update() {
         if( this.y.toFixed(0) <= -15 ) {
             setTimeout(() => this.y = 400, 100)
-            console.log(game.level);
         }
         game.score();
         game.lose();
@@ -150,10 +149,6 @@ class Player extends Positions {
 // Represente seus objetos como instâncias.
 // Coloque todos os objetos inimgos numa array allEnemies
 const allEnemies = [];
-
-// for (i = 0; i < 3; i++) {
-//     allEnemies.push();
-// }
 
 // Coloque o objeto do jogador numa variável chamada jogador.
 const player = new Player();
